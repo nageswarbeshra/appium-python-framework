@@ -1,0 +1,479 @@
+2026-04-30 03:46:53,829 | INFO     | Appium | utils.py:95 :Appium version: 3.3.1
+2026-04-30 03:46:53,831 | INFO     | Appium | utils.py:46 :Port 4725 is in use by PID 29764. Attempting to stop...
+2026-04-30 03:46:53,832 | INFO     | Appium | utils.py:50 :Process name: node.exe
+2026-04-30 03:46:54,193 | INFO     | Appium | utils.py:58 :taskkill output for PID 29764: SUCCESS: The process with PID 29764 has been terminated.
+
+2026-04-30 03:46:56,198 | INFO     | Appium | utils.py:73 :Port 4725 is now free after termination.
+2026-04-30 03:46:56,199 | INFO     | Appium | utils.py:107 :Starting new Appium server on port 4725...
+2026-04-30 03:46:57,806 | INFO     | Appium | utils.py:126 :Appium server started successfully on http://127.0.0.1:4725
+2026-04-30 03:46:57,819 | INFO     | Appium | utils.py:130 :Appium server logs:
+2026-04-30 03:46:57,820 | INFO     | Appium | utils.py:131 :dbug Appium Creating hash file directory: C:\Users\Beshra\node_modules\.cache\appium
+[38;5;112m[Appium][0m Welcome to Appium v3.3.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m, port: [33m4725[39m }
+[38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\Beshra
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\Beshra\node_modules\appium-uiautomator2-driver\build\lib\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 0.432s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://127.0.0.1:4725
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;175m[AppiumDriver@9fe3][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;175m[AppiumDriver@9fe3][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.3.1"}}
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[32m200[39m [90m4 ms - 110[39m
+
+2026-04-30 03:47:10,436 | INFO     | Appium | test_home.py:11 :Name entered
+2026-04-30 03:47:41,334 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-04-30 03:47:41,788 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-04-30 03:47:42,583 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-04-30 03:47:56,928 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-04-30 03:48:45,800 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-04-30 03:48:46,207 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-04-30 03:48:46,975 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-04-30 03:48:48,980 | INFO     | Appium | utils.py:156 :Stopping Appium server...
+2026-04-30 03:48:48,982 | INFO     | Appium | utils.py:160 :Appium server stopped successfully
+2026-04-30 09:11:28,614 | INFO     | Appium | utils.py:97 :Error: Appium not found at C:\Users\Beshra\AppData\Roaming\npm\appium.cmd. Please ensure Appium is installed.
+2026-04-30 09:13:41,764 | INFO     | Appium | utils.py:95 :Appium version: 3.3.1
+2026-04-30 09:13:41,766 | INFO     | Appium | utils.py:43 :Port 4725 is free.
+2026-04-30 09:13:41,767 | INFO     | Appium | utils.py:107 :Starting new Appium server on port 4725...
+2026-04-30 09:13:43,844 | INFO     | Appium | utils.py:135 :Attempt 1/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 09:13:47,859 | INFO     | Appium | utils.py:135 :Attempt 2/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 09:13:49,878 | INFO     | Appium | utils.py:126 :Appium server started successfully on http://127.0.0.1:4725
+2026-04-30 09:13:49,879 | INFO     | Appium | utils.py:130 :Appium server logs:
+2026-04-30 09:13:49,880 | INFO     | Appium | utils.py:131 :[38;5;112m[Appium][0m Welcome to Appium v3.3.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m, port: [33m4725[39m }
+[38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\n.beshra\.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\n.beshra\.appium\node_modules\appium-uiautomator2-driver\build\lib\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 2.421s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://127.0.0.1:4725
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;206m[AppiumDriver@ca51][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;206m[AppiumDriver@ca51][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.3.1"}}
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[32m200[39m [90m5 ms - 110[39m
+
+2026-04-30 09:14:18,817 | INFO     | Appium | test_home.py:11 :Name entered
+2026-04-30 09:14:50,271 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-04-30 09:14:51,653 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-04-30 09:14:51,930 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-04-30 09:15:24,038 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-04-30 09:16:14,601 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-04-30 09:16:15,529 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-04-30 09:16:15,718 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-04-30 09:16:25,836 | INFO     | Appium | utils.py:156 :Stopping Appium server...
+2026-04-30 09:16:25,938 | INFO     | Appium | utils.py:160 :Appium server stopped successfully
+2026-04-30 09:18:37,632 | INFO     | Appium | utils.py:97 :Appium version: 3.3.1
+2026-04-30 09:18:37,634 | INFO     | Appium | utils.py:47 :Port 4725 is in use by PID 52876. Attempting to stop...
+2026-04-30 09:18:37,634 | INFO     | Appium | utils.py:51 :Process name: node.exe
+2026-04-30 09:18:38,651 | INFO     | Appium | utils.py:59 :taskkill output for PID 52876: SUCCESS: The process with PID 52876 has been terminated.
+
+2026-04-30 09:18:40,656 | INFO     | Appium | utils.py:74 :Port 4725 is now free after termination.
+2026-04-30 09:18:40,656 | INFO     | Appium | utils.py:109 :Starting new Appium server on port 4725...
+2026-04-30 09:18:42,706 | INFO     | Appium | utils.py:137 :Attempt 1/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 09:18:46,251 | INFO     | Appium | utils.py:128 :Appium server started successfully on http://127.0.0.1:4725
+2026-04-30 09:18:46,254 | INFO     | Appium | utils.py:132 :Appium server logs:
+2026-04-30 09:18:46,254 | INFO     | Appium | utils.py:133 :[38;5;112m[Appium][0m Welcome to Appium v3.3.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m, port: [33m4725[39m }
+[38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\n.beshra\.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\n.beshra\.appium\node_modules\appium-uiautomator2-driver\build\lib\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.381s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://127.0.0.1:4725
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;169m[AppiumDriver@a7af][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;169m[AppiumDriver@a7af][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.3.1"}}
+
+2026-04-30 09:19:14,357 | INFO     | Appium | test_home.py:11 :Name entered
+2026-04-30 09:19:47,458 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-04-30 09:19:48,403 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-04-30 09:19:48,702 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-04-30 09:20:23,358 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-04-30 09:21:11,874 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-04-30 09:21:12,854 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-04-30 09:21:13,218 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-04-30 09:21:21,805 | INFO     | Appium | utils.py:158 :Stopping Appium server...
+2026-04-30 09:21:21,838 | INFO     | Appium | utils.py:162 :Appium server stopped successfully
+2026-04-30 09:30:31,478 | INFO     | Appium | utils.py:97 :Appium version: 3.3.1
+2026-04-30 09:30:31,479 | INFO     | Appium | utils.py:47 :Port 4725 is in use by PID 60864. Attempting to stop...
+2026-04-30 09:30:31,480 | INFO     | Appium | utils.py:51 :Process name: node.exe
+2026-04-30 09:30:32,357 | INFO     | Appium | utils.py:59 :taskkill output for PID 60864: SUCCESS: The process with PID 60864 has been terminated.
+
+2026-04-30 09:30:34,359 | INFO     | Appium | utils.py:74 :Port 4725 is now free after termination.
+2026-04-30 09:30:34,359 | INFO     | Appium | utils.py:109 :Starting new Appium server on port 4725...
+2026-04-30 09:30:36,479 | INFO     | Appium | utils.py:137 :Attempt 1/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 09:30:40,489 | INFO     | Appium | utils.py:137 :Attempt 2/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 09:30:42,501 | INFO     | Appium | utils.py:128 :Appium server started successfully on http://127.0.0.1:4725
+2026-04-30 09:30:42,502 | INFO     | Appium | utils.py:132 :Appium server logs:
+2026-04-30 09:30:42,502 | INFO     | Appium | utils.py:133 :[38;5;112m[Appium][0m Welcome to Appium v3.3.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m, port: [33m4725[39m }
+[38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\n.beshra\.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\n.beshra\.appium\node_modules\appium-uiautomator2-driver\build\lib\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.752s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://127.0.0.1:4725
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;169m[AppiumDriver@3305][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;169m[AppiumDriver@3305][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.3.1"}}
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[32m200[39m [90m3 ms - 110[39m
+
+2026-04-30 09:31:09,866 | INFO     | Appium | test_home.py:11 :Name entered
+2026-04-30 09:31:27,866 | INFO     | Appium | utils.py:97 :Appium version: 3.3.1
+2026-04-30 09:31:27,869 | INFO     | Appium | utils.py:44 :Port 4725 is free.
+2026-04-30 09:31:27,869 | INFO     | Appium | utils.py:109 :Starting new Appium server on port 4725...
+2026-04-30 09:31:29,931 | INFO     | Appium | utils.py:137 :Attempt 1/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 09:31:33,936 | INFO     | Appium | utils.py:137 :Attempt 2/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 09:31:35,948 | INFO     | Appium | utils.py:128 :Appium server started successfully on http://127.0.0.1:4725
+2026-04-30 09:31:35,949 | INFO     | Appium | utils.py:132 :Appium server logs:
+2026-04-30 09:31:35,950 | INFO     | Appium | utils.py:133 :[38;5;112m[Appium][0m Welcome to Appium v3.3.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m, port: [33m4725[39m }
+[38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\n.beshra\.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\n.beshra\.appium\node_modules\appium-uiautomator2-driver\build\lib\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.400s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://127.0.0.1:4725
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;115m[AppiumDriver@fb9f][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;115m[AppiumDriver@fb9f][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.3.1"}}
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[32m200[39m [90m4 ms - 110[39m
+
+2026-04-30 09:37:01,443 | INFO     | Appium | utils.py:97 :Appium version: 3.3.1
+2026-04-30 09:37:01,444 | INFO     | Appium | utils.py:44 :Port 4723 is free.
+2026-04-30 09:37:01,445 | INFO     | Appium | utils.py:109 :Starting new Appium server on port 4723...
+2026-04-30 09:37:03,514 | INFO     | Appium | utils.py:137 :Attempt 1/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 09:37:07,526 | INFO     | Appium | utils.py:137 :Attempt 2/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 09:37:09,537 | INFO     | Appium | utils.py:128 :Appium server started successfully on http://127.0.0.1:4723
+2026-04-30 09:37:09,537 | INFO     | Appium | utils.py:132 :Appium server logs:
+2026-04-30 09:37:09,537 | INFO     | Appium | utils.py:133 :[38;5;112m[Appium][0m Welcome to Appium v3.3.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m }
+[38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\n.beshra\.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\n.beshra\.appium\node_modules\appium-uiautomator2-driver\build\lib\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 1.400s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://127.0.0.1:4723
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;200m[AppiumDriver@a694][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;200m[AppiumDriver@a694][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.3.1"}}
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[32m200[39m [90m4 ms - 110[39m
+
+2026-04-30 09:37:38,032 | INFO     | Appium | test_home.py:11 :Name entered
+2026-04-30 09:38:09,091 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-04-30 09:38:09,964 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-04-30 09:38:10,287 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-04-30 09:38:43,202 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-04-30 09:39:31,779 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-04-30 09:39:32,217 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-04-30 09:39:32,925 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-04-30 09:39:49,634 | INFO     | Appium | utils.py:158 :Stopping Appium server...
+2026-04-30 09:39:49,695 | INFO     | Appium | utils.py:162 :Appium server stopped successfully
+2026-04-30 10:21:44,214 | INFO     | Appium | utils.py:97 :Appium version: 3.3.1
+2026-04-30 10:21:44,218 | INFO     | Appium | utils.py:44 :Port 4723 is free.
+2026-04-30 10:21:44,219 | INFO     | Appium | utils.py:109 :Starting new Appium server on port 4723...
+2026-04-30 10:21:46,398 | INFO     | Appium | utils.py:137 :Attempt 1/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 10:21:50,643 | INFO     | Appium | utils.py:137 :Attempt 2/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 10:21:54,660 | INFO     | Appium | utils.py:137 :Attempt 3/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 10:21:58,668 | INFO     | Appium | utils.py:137 :Attempt 4/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 10:22:02,682 | INFO     | Appium | utils.py:137 :Attempt 5/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 10:22:04,686 | INFO     | Appium | utils.py:144 :Appium server logs: [38;5;112m[Appium][0m Welcome to Appium v3.3.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m }
+[38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\n.beshra\.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\n.beshra\.appium\node_modules\appium-uiautomator2-driver\build\lib\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 5.053s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://127.0.0.1:4723
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+
+2026-04-30 10:22:04,687 | INFO     | Appium | utils.py:147 :Failed to start Appium server: Appium server failed to start within time limit
+2026-04-30 10:22:04,690 | INFO     | Appium | utils.py:151 :Appium server logs: [38;5;112m[Appium][0m Welcome to Appium v3.3.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m }
+[38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\n.beshra\.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\n.beshra\.appium\node_modules\appium-uiautomator2-driver\build\lib\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 5.053s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://127.0.0.1:4723
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+
+2026-04-30 10:22:04,691 | INFO     | Appium | utils.py:158 :Stopping Appium server...
+2026-04-30 10:22:04,734 | INFO     | Appium | utils.py:162 :Appium server stopped successfully
+2026-04-30 10:22:42,244 | INFO     | Appium | test_home.py:11 :Name entered
+2026-04-30 10:23:13,279 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-04-30 10:23:14,223 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-04-30 10:23:14,564 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-04-30 10:23:50,485 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-04-30 10:24:38,868 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-04-30 10:24:39,787 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-04-30 10:24:40,096 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-04-30 16:29:32,533 | INFO     | Appium | utils.py:97 :Appium version: 3.3.1
+2026-04-30 16:29:32,546 | INFO     | Appium | utils.py:47 :Port 4723 is in use by PID 53288. Attempting to stop...
+2026-04-30 16:29:32,547 | INFO     | Appium | utils.py:51 :Process name: node.exe
+2026-04-30 16:29:34,182 | INFO     | Appium | utils.py:59 :taskkill output for PID 53288: SUCCESS: The process with PID 53288 has been terminated.
+
+2026-04-30 16:29:36,191 | INFO     | Appium | utils.py:74 :Port 4723 is now free after termination.
+2026-04-30 16:29:36,191 | INFO     | Appium | utils.py:109 :Starting new Appium server on port 4723...
+2026-04-30 16:29:38,269 | INFO     | Appium | utils.py:137 :Attempt 1/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 16:29:42,276 | INFO     | Appium | utils.py:137 :Attempt 2/5: Waiting for Appium server... (<urlopen error timed out>)
+2026-04-30 16:29:45,299 | INFO     | Appium | utils.py:128 :Appium server started successfully on http://127.0.0.1:4723
+2026-04-30 16:29:45,301 | INFO     | Appium | utils.py:132 :Appium server logs:
+2026-04-30 16:29:45,301 | INFO     | Appium | utils.py:133 :[38;5;112m[Appium][0m Welcome to Appium v3.3.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m }
+[38;5;112m[Appium][0m The autodetected Appium home path: C:\Users\n.beshra\.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at C:\Users\n.beshra\.appium\node_modules\appium-uiautomator2-driver\build\lib\index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 2.673s
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://127.0.0.1:4723
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;43m[AppiumDriver@18ce][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;43m[AppiumDriver@18ce][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.3.1"}}
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[32m200[39m [90m5 ms - 110[39m
+
+2026-04-30 16:30:21,306 | INFO     | Appium | test_home.py:11 :Name entered
+2026-04-30 16:30:52,438 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-04-30 16:30:53,403 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-04-30 16:30:53,779 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-04-30 16:31:36,548 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-04-30 16:32:25,143 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-04-30 16:32:25,597 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-04-30 16:32:26,318 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-04-30 16:32:33,292 | INFO     | Appium | utils.py:158 :Stopping Appium server...
+2026-04-30 16:32:33,338 | INFO     | Appium | utils.py:162 :Appium server stopped successfully
+2026-05-01 10:53:12,808 | INFO     | Appium | utils.py:105 :Appium version: 3.3.1
+2026-05-01 10:53:12,808 | INFO     | Appium | utils.py:44 :Port 4723 is free.
+2026-05-01 10:53:12,808 | INFO     | Appium | utils.py:114 :Starting new Appium server on port 4723...
+2026-05-01 10:53:20,905 | INFO     | Appium | utils.py:133 :Appium server started successfully on port 4723
+2026-05-01 10:53:34,692 | INFO     | Appium | utils.py:147 :Stopping Appium server...
+2026-05-01 10:53:34,719 | INFO     | Appium | utils.py:151 :Appium server stopped successfully
+2026-05-01 10:54:05,051 | INFO     | Appium | utils.py:105 :Appium version: 3.3.1
+2026-05-01 10:54:05,055 | INFO     | Appium | utils.py:47 :Port 4723 is in use by PID 22600. Attempting to stop...
+2026-05-01 10:54:05,055 | INFO     | Appium | utils.py:51 :Process name: node.exe
+2026-05-01 10:54:06,195 | INFO     | Appium | utils.py:59 :taskkill output for PID 22600: SUCCESS: The process with PID 22600 has been terminated.
+
+2026-05-01 10:54:08,197 | INFO     | Appium | utils.py:74 :Port 4723 is now free after termination.
+2026-05-01 10:54:08,197 | INFO     | Appium | utils.py:114 :Starting new Appium server on port 4723...
+2026-05-01 10:54:16,338 | INFO     | Appium | utils.py:133 :Appium server started successfully on port 4723
+2026-05-01 10:54:27,699 | INFO     | Appium | utils.py:147 :Stopping Appium server...
+2026-05-01 10:54:27,718 | INFO     | Appium | utils.py:151 :Appium server stopped successfully
+2026-05-01 11:01:19,947 | INFO     | Appium | utils.py:105 :Appium version: 3.3.1
+2026-05-01 11:01:19,949 | INFO     | Appium | utils.py:44 :Port 4723 is free.
+2026-05-01 11:01:19,949 | INFO     | Appium | utils.py:114 :Starting new Appium server on port 4723...
+2026-05-01 11:01:28,032 | INFO     | Appium | utils.py:133 :Appium server started successfully on port 4723
+2026-05-01 11:01:40,211 | INFO     | Appium | utils.py:147 :Stopping Appium server...
+2026-05-01 11:01:40,240 | INFO     | Appium | utils.py:151 :Appium server stopped successfully
+2026-05-01 11:05:24,140 | INFO     | Appium | utils.py:105 :Appium version: 3.3.1
+2026-05-01 11:05:24,145 | INFO     | Appium | utils.py:47 :Port 4723 is in use by PID 53288. Attempting to stop...
+2026-05-01 11:05:24,150 | INFO     | Appium | utils.py:51 :Process name: node.exe
+2026-05-01 11:05:26,280 | INFO     | Appium | utils.py:59 :taskkill output for PID 53288: SUCCESS: The process with PID 53288 has been terminated.
+
+2026-05-01 11:05:28,286 | INFO     | Appium | utils.py:74 :Port 4723 is now free after termination.
+2026-05-01 11:05:28,287 | INFO     | Appium | utils.py:114 :Starting new Appium server on port 4723...
+2026-05-01 11:05:48,560 | INFO     | Appium | utils.py:133 :Appium server started successfully on port 4723
+2026-05-01 11:06:02,087 | INFO     | Appium | utils.py:147 :Stopping Appium server...
+2026-05-01 11:06:02,125 | INFO     | Appium | utils.py:151 :Appium server stopped successfully
+2026-05-01 11:09:33,920 | INFO     | Appium | utils.py:105 :Appium version: 3.3.1
+2026-05-01 11:09:33,924 | INFO     | Appium | utils.py:44 :Port 4723 is free.
+2026-05-01 11:09:33,924 | INFO     | Appium | utils.py:114 :Starting new Appium server on port 4723...
+2026-05-01 11:09:50,186 | INFO     | Appium | utils.py:133 :Appium server started successfully on port 4723
+2026-05-01 11:11:15,430 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-05-01 11:11:53,460 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-05-01 11:11:53,767 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-05-01 11:11:54,431 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-05-01 11:12:02,663 | INFO     | Appium | utils.py:147 :Stopping Appium server...
+2026-05-01 11:12:02,710 | INFO     | Appium | utils.py:151 :Appium server stopped successfully
+2026-05-01 11:14:43,595 | INFO     | Appium | utils.py:105 :Appium version: 3.3.1
+2026-05-01 11:14:43,603 | INFO     | Appium | utils.py:47 :Port 4723 is in use by PID 21368. Attempting to stop...
+2026-05-01 11:14:43,603 | INFO     | Appium | utils.py:51 :Process name: node.exe
+2026-05-01 11:14:45,940 | INFO     | Appium | utils.py:59 :taskkill output for PID 21368: SUCCESS: The process with PID 21368 has been terminated.
+
+2026-05-01 11:14:47,944 | INFO     | Appium | utils.py:74 :Port 4723 is now free after termination.
+2026-05-01 11:14:47,944 | INFO     | Appium | utils.py:114 :Starting new Appium server on port 4723...
+2026-05-01 11:15:00,689 | INFO     | Appium | utils.py:133 :Appium server started successfully on port 4723
+2026-05-01 11:15:34,505 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-01 11:16:03,502 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-05-01 11:16:04,304 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-05-01 11:16:04,518 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-05-01 11:17:09,001 | INFO     | Appium | utils.py:147 :Stopping Appium server...
+2026-05-01 11:17:09,039 | INFO     | Appium | utils.py:151 :Appium server stopped successfully
+2026-05-01 11:17:50,557 | INFO     | Appium | utils.py:105 :Appium version: 3.3.1
+2026-05-01 11:17:50,557 | INFO     | Appium | utils.py:47 :Port 4723 is in use by PID 5456. Attempting to stop...
+2026-05-01 11:17:50,557 | INFO     | Appium | utils.py:51 :Process name: node.exe
+2026-05-01 11:17:51,967 | INFO     | Appium | utils.py:59 :taskkill output for PID 5456: SUCCESS: The process with PID 5456 has been terminated.
+
+2026-05-01 11:17:53,972 | INFO     | Appium | utils.py:74 :Port 4723 is now free after termination.
+2026-05-01 11:17:53,972 | INFO     | Appium | utils.py:114 :Starting new Appium server on port 4723...
+2026-05-01 11:18:02,082 | INFO     | Appium | utils.py:135 :Appium server started successfully on port 4723
+2026-05-01 11:18:46,715 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-01 11:19:12,128 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-05-01 11:19:12,421 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-05-01 11:19:13,114 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-05-01 11:19:58,865 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-05-01 11:20:38,801 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-05-01 11:20:39,587 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-05-01 11:20:39,801 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-05-01 11:20:46,841 | INFO     | Appium | utils.py:149 :Stopping Appium server...
+2026-05-01 11:20:46,887 | INFO     | Appium | utils.py:153 :Appium server stopped successfully
+2026-05-01 11:21:09,162 | INFO     | Appium | utils.py:105 :Appium version: 3.3.1
+2026-05-01 11:21:09,166 | INFO     | Appium | utils.py:47 :Port 4723 is in use by PID 32916. Attempting to stop...
+2026-05-01 11:21:09,166 | INFO     | Appium | utils.py:51 :Process name: node.exe
+2026-05-01 11:21:12,088 | INFO     | Appium | utils.py:59 :taskkill output for PID 32916: SUCCESS: The process with PID 32916 has been terminated.
+
+2026-05-01 11:21:14,098 | INFO     | Appium | utils.py:74 :Port 4723 is now free after termination.
+2026-05-01 11:21:14,098 | INFO     | Appium | utils.py:114 :Starting new Appium server on port 4723...
+2026-05-01 11:21:38,454 | INFO     | Appium | utils.py:135 :Appium server started successfully on port 4723
+2026-05-01 11:23:06,434 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-05-01 11:23:23,989 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-05-01 11:23:24,790 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-05-01 11:23:24,997 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-05-01 11:23:29,831 | INFO     | Appium | utils.py:149 :Stopping Appium server...
+2026-05-01 11:23:29,847 | INFO     | Appium | utils.py:153 :Appium server stopped successfully
+2026-05-01 11:38:14,683 | INFO     | Appium | utils.py:118 :Appium version: 3.3.1
+2026-05-01 11:38:14,683 | INFO     | Appium | utils.py:44 :Port 4723 is free.
+2026-05-01 11:38:14,683 | INFO     | Appium | utils.py:130 :Starting new Appium server on port 4723...
+2026-05-01 11:38:22,782 | INFO     | Appium | utils.py:158 :Appium server started successfully on port 4723
+2026-05-01 11:39:00,967 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-01 12:08:24,454 | INFO     | Appium | utils.py:43 :Appium found via 'where' command: C:\Users\n.beshra\AppData\Roaming\npm\appium
+2026-05-01 12:08:30,161 | INFO     | Appium | utils.py:130 :Appium version: 3.3.1
+2026-05-01 12:08:30,164 | INFO     | Appium | utils.py:63 :Port 4723 is free.
+2026-05-01 12:08:30,164 | INFO     | Appium | utils.py:142 :Starting new Appium server on port 4723...
+2026-05-01 12:08:38,295 | INFO     | Appium | utils.py:170 :Appium server started successfully on port 4723
+2026-05-01 12:09:12,401 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-01 12:27:13,558 | INFO     | Appium | utils.py:51 :Appium found via 'where' command: C:\Users\n.beshra\AppData\Roaming\npm\appium
+2026-05-01 12:27:18,997 | INFO     | Appium | utils.py:182 :Appium version: 3.3.1
+2026-05-01 12:27:19,000 | INFO     | Appium | utils.py:112 :Port 4723 is free.
+2026-05-01 12:27:19,000 | INFO     | Appium | utils.py:194 :Starting new Appium server on port 4723...
+2026-05-01 12:27:31,155 | INFO     | Appium | utils.py:222 :Appium server started successfully on port 4723
+2026-05-01 12:28:05,234 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-01 12:29:17,392 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-05-01 12:29:52,486 | INFO     | Appium | utils.py:236 :Stopping Appium server...
+2026-05-01 12:29:52,532 | INFO     | Appium | utils.py:240 :Appium server stopped successfully
+2026-05-01 17:03:56,136 | INFO     | Appium | utils.py:35 :DEBUG: Current user: n.beshra
+2026-05-01 17:03:56,138 | INFO     | Appium | utils.py:36 :DEBUG: USERPROFILE: C:\Users\n.beshra
+2026-05-01 17:03:56,138 | INFO     | Appium | utils.py:37 :DEBUG: APPDATA: C:\Users\n.beshra\AppData\Roaming
+2026-05-01 17:03:56,139 | INFO     | Appium | utils.py:38 :DEBUG: PATH: C:\Users\n.beshra\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-21;C:\Program Files\Java\jdk-21\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\n.beshra\AppData\Local\Android\Sdk\platform-tools\adb.exe;D:\TOOLS\STPv2.3.3;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Tesseract-OCR;C:\Program Files\Tesseract-O...
+2026-05-01 17:04:01,149 | INFO     | Appium | utils.py:57 :Appium found via 'where' command: C:\Users\n.beshra\AppData\Roaming\npm\appium
+2026-05-01 17:04:07,860 | INFO     | Appium | utils.py:230 :Appium version: 3.3.1
+2026-05-01 17:04:07,862 | INFO     | Appium | utils.py:163 :Port 4723 is in use by PID 4284. Attempting to stop...
+2026-05-01 17:04:07,863 | INFO     | Appium | utils.py:167 :Process name: node.exe
+2026-05-01 17:04:09,414 | INFO     | Appium | utils.py:175 :taskkill output for PID 4284: SUCCESS: The process with PID 4284 has been terminated.
+
+2026-05-01 17:04:11,416 | INFO     | Appium | utils.py:190 :Port 4723 is now free after termination.
+2026-05-01 17:04:11,417 | INFO     | Appium | utils.py:242 :Starting new Appium server on port 4723...
+2026-05-01 17:04:21,039 | INFO     | Appium | utils.py:270 :Appium server started successfully on port 4723
+2026-05-01 17:04:56,605 | INFO     | Appium | utils.py:35 :DEBUG: Current user: n.beshra
+2026-05-01 17:04:56,606 | INFO     | Appium | utils.py:36 :DEBUG: USERPROFILE: C:\Users\n.beshra
+2026-05-01 17:04:56,607 | INFO     | Appium | utils.py:37 :DEBUG: APPDATA: C:\Users\n.beshra\AppData\Roaming
+2026-05-01 17:04:56,608 | INFO     | Appium | utils.py:38 :DEBUG: PATH: C:\Users\n.beshra\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-21;C:\Program Files\Java\jdk-21\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\n.beshra\AppData\Local\Android\Sdk\platform-tools\adb.exe;D:\TOOLS\STPv2.3.3;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Tesseract-OCR;C:\Program Files\Tesseract-O...
+2026-05-01 17:04:59,679 | INFO     | Appium | utils.py:57 :Appium found via 'where' command: C:\Users\n.beshra\AppData\Roaming\npm\appium
+2026-05-01 17:05:05,903 | INFO     | Appium | utils.py:230 :Appium version: 3.3.1
+2026-05-01 17:05:05,905 | INFO     | Appium | utils.py:160 :Port 4723 is free.
+2026-05-01 17:05:05,906 | INFO     | Appium | utils.py:242 :Starting new Appium server on port 4723...
+2026-05-01 17:05:15,529 | INFO     | Appium | utils.py:270 :Appium server started successfully on port 4723
+2026-05-01 17:06:01,502 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-01 17:06:30,278 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-05-01 17:06:31,120 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-05-01 17:06:31,360 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-05-01 17:07:14,938 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-05-01 17:07:39,968 | INFO     | Appium | utils.py:284 :Stopping Appium server...
+2026-05-01 17:07:40,025 | INFO     | Appium | utils.py:288 :Appium server stopped successfully
+2026-05-01 17:18:31,700 | INFO     | Appium | utils.py:36 :DEBUG: Current user: n.beshra
+2026-05-01 17:18:31,701 | INFO     | Appium | utils.py:37 :DEBUG: USERPROFILE: C:\Users\n.beshra
+2026-05-01 17:18:31,701 | INFO     | Appium | utils.py:38 :DEBUG: APPDATA: C:\Users\n.beshra\AppData\Roaming
+2026-05-01 17:18:31,701 | INFO     | Appium | utils.py:39 :DEBUG: PATH: C:\Users\n.beshra\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-21;C:\Program Files\Java\jdk-21\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\n.beshra\AppData\Local\Android\Sdk\platform-tools\adb.exe;D:\TOOLS\STPv2.3.3;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Tesseract-OCR;C:\Program Files\Tesseract-O...
+2026-05-01 17:18:31,703 | INFO     | Appium | utils.py:44 :Appium found via APPIUM_PATH environment variable: C:\Users\n.beshra\AppData\Roaming\npm\appium
+2026-05-01 17:18:36,669 | INFO     | Appium | utils.py:237 :Appium version: 3.3.1
+2026-05-01 17:18:36,671 | INFO     | Appium | utils.py:170 :Port 4723 is in use by PID 49348. Attempting to stop...
+2026-05-01 17:18:36,672 | INFO     | Appium | utils.py:174 :Process name: node.exe
+2026-05-01 17:18:38,249 | INFO     | Appium | utils.py:182 :taskkill output for PID 49348: SUCCESS: The process with PID 49348 has been terminated.
+
+2026-05-01 17:18:40,251 | INFO     | Appium | utils.py:197 :Port 4723 is now free after termination.
+2026-05-01 17:18:40,252 | INFO     | Appium | utils.py:249 :Starting new Appium server on port 4723...
+2026-05-01 17:18:48,372 | INFO     | Appium | utils.py:277 :Appium server started successfully on port 4723
+2026-05-01 17:19:26,686 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-01 17:19:55,391 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-05-01 17:19:56,278 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-05-01 17:19:56,778 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-05-02 14:03:53,355 | INFO     | Appium | utils.py:37 :DEBUG: Current user: Beshra
+2026-05-02 14:03:53,355 | INFO     | Appium | utils.py:38 :DEBUG: USERPROFILE: C:\Users\Beshra
+2026-05-02 14:03:53,355 | INFO     | Appium | utils.py:39 :DEBUG: APPDATA: C:\Users\Beshra\AppData\Roaming
+2026-05-02 14:03:53,355 | INFO     | Appium | utils.py:40 :DEBUG: PATH: C:\Program Files\Git\cmd;C:\Users\Beshra\AppData\Local\Android\Sdk\tools\bin;C:\Users\Beshra\AppData\Local\Android\Sdk\Sdk\tools;C:\Users\Beshra\AppData\Local\Android\Sdk\emulator;C:\Users\Beshra\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\nodejs;C:\Users\B...
+2026-05-02 14:03:53,356 | INFO     | Appium | utils.py:53 :Appium found via APPIUM_PATH environment variable: C:\Users\beshra\AppData\Roaming\npm\appium
+2026-05-02 14:03:54,236 | INFO     | Appium | utils.py:240 :Appium version: 3.3.1
+2026-05-02 14:03:54,238 | INFO     | Appium | utils.py:173 :Port 4723 is in use by PID 48916. Attempting to stop...
+2026-05-02 14:03:54,239 | INFO     | Appium | utils.py:177 :Process name: node.exe
+2026-05-02 14:03:54,654 | INFO     | Appium | utils.py:185 :taskkill output for PID 48916: SUCCESS: The process with PID 48916 has been terminated.
+
+2026-05-02 14:03:56,657 | INFO     | Appium | utils.py:200 :Port 4723 is now free after termination.
+2026-05-02 14:03:56,658 | INFO     | Appium | utils.py:252 :Starting new Appium server on port 4723...
+2026-05-02 14:04:00,732 | INFO     | Appium | utils.py:280 :Appium server started successfully on port 4723
+2026-05-02 14:04:01,032 | INFO     | Appium | utils.py:294 :Stopping Appium server...
+2026-05-02 14:04:01,035 | INFO     | Appium | utils.py:298 :Appium server stopped successfully
+2026-05-02 14:07:10,484 | INFO     | Appium | utils.py:37 :DEBUG: Current user: Beshra
+2026-05-02 14:07:10,484 | INFO     | Appium | utils.py:38 :DEBUG: USERPROFILE: C:\Users\Beshra
+2026-05-02 14:07:10,484 | INFO     | Appium | utils.py:39 :DEBUG: APPDATA: C:\Users\Beshra\AppData\Roaming
+2026-05-02 14:07:10,484 | INFO     | Appium | utils.py:40 :DEBUG: PATH: C:\Program Files\Git\cmd;C:\Users\Beshra\AppData\Local\Android\Sdk\tools\bin;C:\Users\Beshra\AppData\Local\Android\Sdk\Sdk\tools;C:\Users\Beshra\AppData\Local\Android\Sdk\emulator;C:\Users\Beshra\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\nodejs;C:\Users\B...
+2026-05-02 14:07:10,484 | INFO     | Appium | utils.py:53 :Appium found via APPIUM_PATH environment variable: C:\Users\beshra\AppData\Roaming\npm\appium
+2026-05-02 14:07:11,240 | INFO     | Appium | utils.py:240 :Appium version: 3.3.1
+2026-05-02 14:07:11,241 | INFO     | Appium | utils.py:173 :Port 4723 is in use by PID 36580. Attempting to stop...
+2026-05-02 14:07:11,242 | INFO     | Appium | utils.py:177 :Process name: node.exe
+2026-05-02 14:07:11,638 | INFO     | Appium | utils.py:185 :taskkill output for PID 36580: SUCCESS: The process with PID 36580 has been terminated.
+
+2026-05-02 14:07:13,641 | INFO     | Appium | utils.py:200 :Port 4723 is now free after termination.
+2026-05-02 14:07:13,641 | INFO     | Appium | utils.py:252 :Starting new Appium server on port 4723...
+2026-05-02 14:07:15,212 | INFO     | Appium | utils.py:280 :Appium server started successfully on port 4723
+2026-05-02 14:07:35,515 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-02 14:10:11,436 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-05-02 14:10:21,889 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-05-02 14:10:32,199 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-05-02 14:10:46,264 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-05-02 14:11:47,280 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-05-02 14:11:57,725 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-05-02 14:12:08,030 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-05-02 14:12:09,511 | INFO     | Appium | utils.py:294 :Stopping Appium server...
+2026-05-02 14:12:09,515 | INFO     | Appium | utils.py:298 :Appium server stopped successfully
+2026-05-02 14:13:18,601 | INFO     | Appium | utils.py:37 :DEBUG: Current user: Beshra
+2026-05-02 14:13:18,601 | INFO     | Appium | utils.py:38 :DEBUG: USERPROFILE: C:\Users\Beshra
+2026-05-02 14:13:18,601 | INFO     | Appium | utils.py:39 :DEBUG: APPDATA: C:\Users\Beshra\AppData\Roaming
+2026-05-02 14:13:18,602 | INFO     | Appium | utils.py:40 :DEBUG: PATH: C:\Program Files\Git\cmd;C:\Users\Beshra\AppData\Local\Android\Sdk\tools\bin;C:\Users\Beshra\AppData\Local\Android\Sdk\Sdk\tools;C:\Users\Beshra\AppData\Local\Android\Sdk\emulator;C:\Users\Beshra\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\nodejs;C:\Users\B...
+2026-05-02 14:13:18,602 | INFO     | Appium | utils.py:53 :Appium found via APPIUM_PATH environment variable: C:\Users\beshra\AppData\Roaming\npm\appium
+2026-05-02 14:13:19,249 | INFO     | Appium | utils.py:240 :Appium version: 3.3.1
+2026-05-02 14:13:19,250 | INFO     | Appium | utils.py:173 :Port 4723 is in use by PID 61656. Attempting to stop...
+2026-05-02 14:13:19,251 | INFO     | Appium | utils.py:177 :Process name: node.exe
+2026-05-02 14:13:19,675 | INFO     | Appium | utils.py:185 :taskkill output for PID 61656: SUCCESS: The process with PID 61656 has been terminated.
+
+2026-05-02 14:13:21,679 | INFO     | Appium | utils.py:200 :Port 4723 is now free after termination.
+2026-05-02 14:13:21,680 | INFO     | Appium | utils.py:252 :Starting new Appium server on port 4723...
+2026-05-02 14:13:23,278 | INFO     | Appium | utils.py:280 :Appium server started successfully on port 4723
+2026-05-02 14:13:36,452 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-02 14:16:12,299 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-05-02 14:16:22,744 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-05-02 14:16:33,095 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-05-02 14:16:47,280 | INFO     | Appium | test_home2.py:11 :Name entered
