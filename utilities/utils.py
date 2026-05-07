@@ -1,5 +1,10 @@
 import getpass
 import os
+
+# Added support for short‑path JAVA_HOME to avoid spaces in "Program Files"
+JAVA_HOME_SHORT = r"C:\PROGRA~1\Java\jdk-21.0.10"
+os.environ["JAVA_HOME"] = JAVA_HOME_SHORT
+os.environ["PATH"] = f"{JAVA_HOME_SHORT}\\bin;{os.environ.get('PATH', '')}"
 import re
 import subprocess
 import time

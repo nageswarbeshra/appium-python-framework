@@ -7,13 +7,10 @@ from selenium.webdriver.support import expected_conditions as EC
 class HomePage(BasePage):
 
     def scroll_select(self, country_name):
-        """
-        Returns a locator tuple that scrolls the UIAutomator view to the element
-        with the given visible text (country name).
-        """
+        """Returns a locator tuple that scrolls the UIAutomator view to the element with the given visible text (country name)."""
         return (
             AppiumBy.ANDROID_UIAUTOMATOR,
-            f'new UiScrollable(new UiSelector()).scrollIntoView(text("{country_name}"))'
+            f'new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text("{country_name}"))'
         )
 
     # Legacy wrapper to maintain compatibility with older test code
@@ -27,8 +24,7 @@ class HomePage(BasePage):
 
     def select_country(self, country_name):
         """
-        Opens the country dropdown and scrolls to the desired country,
-        then selects it.
+        Opens the country dropdown and selects the desired country.
         """
         # Open Country Dropdown
         self.driver.find_element(
@@ -36,8 +32,11 @@ class HomePage(BasePage):
             "com.androidsample.generalstore:id/spinnerCountry"
         ).click()
 
-        # Locate the country using the scroll_select helper and click it
-        self.driver.find_element(*self.scroll_select(country_name)).click()
+        # Locate the country using XPath and click it
+        self.driver.find_element(
+            AppiumBy.XPATH,
+            f"//android.widget.TextView[@text='{country_name}']"
+        ).click()
     def enter_name(self, name):
         # Wait for main activity to be loaded
         self.driver.wait_activity("com.androidsample.generalstore.MainActivity", 6)
