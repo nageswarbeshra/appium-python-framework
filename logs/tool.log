@@ -482,3 +482,46 @@
 2026-05-02 14:21:02,632 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
 2026-05-02 14:21:04,177 | INFO     | Appium | utils.py:294 :Stopping Appium server...
 2026-05-02 14:21:04,179 | INFO     | Appium | utils.py:298 :Appium server stopped successfully
+2026-05-07 20:21:03,802 | INFO     | Appium | utils.py:37 :DEBUG: Current user: Beshra
+2026-05-07 20:21:03,802 | INFO     | Appium | utils.py:38 :DEBUG: USERPROFILE: C:\Users\Beshra
+2026-05-07 20:21:03,803 | INFO     | Appium | utils.py:39 :DEBUG: APPDATA: C:\Users\Beshra\AppData\Roaming
+2026-05-07 20:21:03,803 | INFO     | Appium | utils.py:40 :DEBUG: PATH: C:\Program Files\Git\cmd;C:\Users\Beshra\AppData\Local\Android\Sdk\tools\bin;C:\Users\Beshra\AppData\Local\Android\Sdk\Sdk\tools;C:\Users\Beshra\AppData\Local\Android\Sdk\emulator;C:\Users\Beshra\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\nodejs;C:\Users\B...
+2026-05-07 20:21:03,803 | INFO     | Appium | utils.py:53 :Appium found via APPIUM_PATH environment variable: C:\Users\beshra\AppData\Roaming\npm\appium
+2026-05-07 20:21:04,546 | INFO     | Appium | utils.py:240 :Appium version: 3.3.1
+2026-05-07 20:21:04,549 | INFO     | Appium | utils.py:170 :Port 4723 is free.
+2026-05-07 20:21:04,549 | INFO     | Appium | utils.py:252 :Starting new Appium server on port 4723...
+2026-05-07 20:21:08,605 | INFO     | Appium | utils.py:280 :Appium server started successfully on port 4723
+2026-05-07 20:21:13,775 | INFO     | Appium | utils.py:294 :Stopping Appium server...
+2026-05-07 20:21:13,777 | INFO     | Appium | utils.py:298 :Appium server stopped successfully
+2026-05-07 20:27:12,870 | INFO     | Appium | utils.py:37 :DEBUG: Current user: Beshra
+2026-05-07 20:27:12,870 | INFO     | Appium | utils.py:38 :DEBUG: USERPROFILE: C:\Users\Beshra
+2026-05-07 20:27:12,871 | INFO     | Appium | utils.py:39 :DEBUG: APPDATA: C:\Users\Beshra\AppData\Roaming
+2026-05-07 20:27:12,871 | INFO     | Appium | utils.py:40 :DEBUG: PATH: C:\Program Files\Git\cmd;C:\Users\Beshra\AppData\Local\Android\Sdk\tools\bin;C:\Users\Beshra\AppData\Local\Android\Sdk\Sdk\tools;C:\Users\Beshra\AppData\Local\Android\Sdk\emulator;C:\Users\Beshra\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\nodejs;C:\Users\B...
+2026-05-07 20:27:12,872 | INFO     | Appium | utils.py:53 :Appium found via APPIUM_PATH environment variable: C:\Users\beshra\AppData\Roaming\npm\appium
+2026-05-07 20:27:13,589 | INFO     | Appium | utils.py:240 :Appium version: 3.3.1
+2026-05-07 20:27:13,591 | INFO     | Appium | utils.py:170 :Port 4723 is free.
+2026-05-07 20:27:13,592 | INFO     | Appium | utils.py:252 :Starting new Appium server on port 4723...
+2026-05-07 20:27:15,211 | INFO     | Appium | utils.py:280 :Appium server started successfully on port 4723
+2026-05-07 20:27:20,198 | INFO     | Appium | utils.py:294 :Stopping Appium server...
+2026-05-07 20:27:20,200 | INFO     | Appium | utils.py:298 :Appium server stopped successfully
+2026-05-07 20:38:49,499 | INFO     | Appium | utils.py:37 :DEBUG: Current user: Beshra
+2026-05-07 20:38:49,500 | INFO     | Appium | utils.py:38 :DEBUG: USERPROFILE: C:\Users\Beshra
+2026-05-07 20:38:49,500 | INFO     | Appium | utils.py:39 :DEBUG: APPDATA: C:\Users\Beshra\AppData\Roaming
+2026-05-07 20:38:49,500 | INFO     | Appium | utils.py:40 :DEBUG: PATH: C:\Program Files\Java\jdk-21.0.10;C:\Program Files\Git\cmd;C:\Users\Beshra\AppData\Local\Android\Sdk\tools\bin;C:\Users\Beshra\AppData\Local\Android\Sdk\Sdk\tools;C:\Users\Beshra\AppData\Local\Android\Sdk\emulator;C:\Users\Beshra\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\node_modules\npm;...
+2026-05-07 20:38:49,501 | INFO     | Appium | utils.py:53 :Appium found via APPIUM_PATH environment variable: C:\Users\beshra\AppData\Roaming\npm\appium
+2026-05-07 20:38:51,281 | INFO     | Appium | utils.py:240 :Appium version: 3.3.1
+2026-05-07 20:38:51,287 | INFO     | Appium | utils.py:170 :Port 4723 is free.
+2026-05-07 20:38:51,288 | INFO     | Appium | utils.py:252 :Starting new Appium server on port 4723...
+2026-05-07 20:38:55,384 | INFO     | Appium | utils.py:280 :Appium server started successfully on port 4723
+2026-05-07 20:39:17,220 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-07 20:39:50,891 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-05-07 20:39:52,325 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-05-07 20:39:52,565 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-05-07 20:39:52,566 | INFO     | Appium | test_home.py:18 :Button clicked
+2026-05-07 20:39:52,566 | INFO     | Appium | test_home.py:19 :Button clicked
+2026-05-07 20:40:08,488 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-05-07 20:40:52,352 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-05-07 20:40:53,030 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-05-07 20:40:53,683 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-05-07 20:40:55,543 | INFO     | Appium | utils.py:294 :Stopping Appium server...
+2026-05-07 20:40:55,548 | INFO     | Appium | utils.py:298 :Appium server stopped successfully
