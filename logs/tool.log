@@ -546,3 +546,21 @@
 2026-05-07 20:46:32,432 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
 2026-05-07 20:46:35,068 | INFO     | Appium | utils.py:306 :Stopping Appium server...
 2026-05-07 20:46:35,072 | INFO     | Appium | utils.py:310 :Appium server stopped successfully
+2026-05-07 20:52:55,148 | INFO     | Appium | utils.py:56 :DEBUG: Current user: Beshra
+2026-05-07 20:52:55,148 | INFO     | Appium | utils.py:57 :DEBUG: USERPROFILE: C:\Users\Beshra
+2026-05-07 20:52:55,148 | INFO     | Appium | utils.py:58 :DEBUG: APPDATA: C:\Users\Beshra\AppData\Roaming
+2026-05-07 20:52:55,148 | INFO     | Appium | utils.py:59 :DEBUG: PATH: C:\Program Files\Java\jdk-21.0.10;C:\Program Files\Git\cmd;C:\Users\Beshra\AppData\Local\Android\Sdk\tools\bin;C:\Users\Beshra\AppData\Local\Android\Sdk\Sdk\tools;C:\Users\Beshra\AppData\Local\Android\Sdk\emulator;C:\Users\Beshra\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\node_modules\npm;...
+2026-05-07 20:52:55,148 | INFO     | Appium | utils.py:72 :Appium found via APPIUM_PATH environment variable: C:\Users\beshra\AppData\Roaming\npm\appium
+2026-05-07 20:52:56,240 | INFO     | Appium | utils.py:277 :Appium version: 3.3.1
+2026-05-07 20:52:56,243 | INFO     | Appium | utils.py:189 :Port 4723 is free.
+2026-05-07 20:52:56,243 | INFO     | Appium | utils.py:289 :Starting new Appium server on port 4723...
+2026-05-07 20:53:00,312 | INFO     | Appium | utils.py:317 :Appium server started successfully on port 4723
+2026-05-07 20:53:23,858 | INFO     | Appium | test_home.py:11 :Name entered
+2026-05-07 20:53:49,504 | INFO     | Appium | test_home.py:13 :Country  Selected
+2026-05-07 20:53:50,360 | INFO     | Appium | test_home.py:15 :Gender Selected
+2026-05-07 20:53:51,055 | INFO     | Appium | test_home.py:17 :Shop   button clicked
+2026-05-07 20:53:51,056 | INFO     | Appium | test_home.py:18 :Button clicked
+2026-05-07 20:53:51,056 | INFO     | Appium | test_home.py:19 :Button clicked
+2026-05-07 20:54:12,146 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-05-07 20:55:41,128 | INFO     | Appium | utils.py:331 :Stopping Appium server...
+2026-05-07 20:55:41,133 | INFO     | Appium | utils.py:335 :Appium server stopped successfully

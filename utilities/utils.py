@@ -18,6 +18,25 @@ class Utils:
         self.driver = None
         self.appium_process = None
         self.appium_log_file = None
+        # Ensure JAVA_HOME does not contain spaces (required for Appium on Windows)
+        java_home = os.getenv("JAVA_HOME")
+        if java_home and " " in java_home:
+            try:
+                import ctypes
+                GetShortPathNameW = ctypes.windll.kernel32.GetShortPathNameW
+                buffer = ctypes.create_unicode_buffer(260)
+                if GetShortPathNameW(java_home, buffer, 260):
+                    short_path = buffer.value
+                    os.environ["JAVA_HOME"] = short_path
+                    nowLogs(f"Adjusted JAVA_HOME to short path: {short_path}")
+                    # Ensure Java bin directory is early in PATH
+                    java_bin = os.path.join(os.getenv("JAVA_HOME", ""), "bin")
+                    if java_bin and os.path.isdir(java_bin):
+                        path_parts = [p for p in os.getenv("PATH", "").split(os.pathsep) if p.lower() != java_bin.lower()]
+                        os.environ["PATH"] = os.pathsep.join([java_bin] + path_parts)
+                        nowLogs(f"Prepended JAVA_HOME\\bin to PATH: {java_bin}")
+            except Exception as e:
+                nowLogs(f"Failed to adjust JAVA_HOME: {e}")
 
     def is_port_in_use(self, port):
         """Check if the specified port is in use and return the PID if found."""
@@ -230,6 +249,12 @@ class Utils:
                 if short_java:
                     os.environ['JAVA_HOME'] = short_java
                     nowLogs(f"Adjusted JAVA_HOME to short path: {short_java}")
+                    # Ensure Java bin directory is early in PATH
+                    java_bin = os.path.join(os.getenv("JAVA_HOME", ""), "bin")
+                    if java_bin and os.path.isdir(java_bin):
+                        path_parts = [p for p in os.getenv("PATH", "").split(os.pathsep) if p.lower() != java_bin.lower()]
+                        os.environ["PATH"] = os.pathsep.join([java_bin] + path_parts)
+                        nowLogs(f"Prepended JAVA_HOME\\bin to PATH: {java_bin}")
             except Exception as e:
                 nowLogs(f"Failed to adjust JAVA_HOME: {e}")
         elif is_windows:
