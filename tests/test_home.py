@@ -15,3 +15,4 @@ class TestHome:
         nowLogs("Gender Selected")
         home.click_shop()
         nowLogs("Shop   button clicked")
+        nowLogs("Button clicked")

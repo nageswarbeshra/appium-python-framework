@@ -477,3 +477,8 @@
 2026-05-02 14:16:22,744 | INFO     | Appium | test_home.py:15 :Gender Selected
 2026-05-02 14:16:33,095 | INFO     | Appium | test_home.py:17 :Shop   button clicked
 2026-05-02 14:16:47,280 | INFO     | Appium | test_home2.py:11 :Name entered
+2026-05-02 14:20:41,840 | INFO     | Appium | test_home2.py:13 :Country  Selected
+2026-05-02 14:20:52,347 | INFO     | Appium | test_home2.py:15 :Gender Selected
+2026-05-02 14:21:02,632 | INFO     | Appium | test_home2.py:17 :Shop   button clicked
+2026-05-02 14:21:04,177 | INFO     | Appium | utils.py:294 :Stopping Appium server...
+2026-05-02 14:21:04,179 | INFO     | Appium | utils.py:298 :Appium server stopped successfully
