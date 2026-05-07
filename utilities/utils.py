@@ -220,6 +220,18 @@ class Utils:
         
         if appium_path and os.path.exists(appium_path):
             nowLogs(f"Using APPIUM_PATH from environment: {appium_path}")
+        # Ensure JAVA_HOME is correctly set to a path without spaces
+        java_home = os.environ.get('JAVA_HOME')
+        if java_home and ' ' in java_home:
+            try:
+                result = subprocess.run(['cmd', '/c', f'for %I in ("{java_home}") do @echo %~sI'],
+                                        capture_output=True, text=True, shell=True)
+                short_java = result.stdout.strip()
+                if short_java:
+                    os.environ['JAVA_HOME'] = short_java
+                    nowLogs(f"Adjusted JAVA_HOME to short path: {short_java}")
+            except Exception as e:
+                nowLogs(f"Failed to adjust JAVA_HOME: {e}")
         elif is_windows:
             appium_path = self._find_appium_on_windows()
             if appium_path is None:
