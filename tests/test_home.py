@@ -16,3 +16,4 @@ class TestHome:
         home.click_shop()
         nowLogs("Shop   button clicked")
         nowLogs("Button clicked")
+        nowLogs("Button clicked")
